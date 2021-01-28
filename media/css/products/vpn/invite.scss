@@ -87,3 +87,8 @@ $image-path: '/media/protocol/img';
 .mzp-c-form-errors {
     display: none;
 }
+
+.vpn-invite-privacy {
+    @include text-body-sm;
+    text-align: center;
+}

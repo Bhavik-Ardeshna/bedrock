@@ -95,7 +95,6 @@
         var newsletter = document.getElementById('id_newsletters').value;
         var country = document.getElementById('id_country').value;
         var lang = document.getElementById('id_lang').value;
-        var privacy = document.querySelector('input[name="privacy"]:checked') ? '&privacy=true' : '';
         var windows = document.getElementById('platforms-windows');
         var ios = document.getElementById('platforms-ios');
         var android = document.getElementById('platforms-android');
@@ -115,8 +114,8 @@
                      '&newsletters=' + newsletter +
                      '&country=' + country +
                      '&lang=' + lang +
+                     '&privacy=true' +
                      '&fmt=H' +
-                     privacy +
                      platforms +
                      '&source_url=' + encodeURIComponent(document.location.href);
 

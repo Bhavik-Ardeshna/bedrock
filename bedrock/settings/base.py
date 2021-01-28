@@ -1340,7 +1340,7 @@ VPN_ALLOWED_COUNTRY_CODES = [
 
 # Mozilla VPN subscription prices
 VPN_PRICE_MONTHLY = {
-    'en-US': {
+    'US': {
         'monthly': 'US$4.99'
     }
 }
